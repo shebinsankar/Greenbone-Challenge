@@ -1,0 +1,17 @@
+{
+  "name": "greenbone-challenge",
+  "version": "1.0.0",
+  "description": "greenbone-challenge",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
